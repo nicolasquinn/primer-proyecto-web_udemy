@@ -1,5 +1,14 @@
+html {
+    font-size: 62.5%; /* 1 rem equivale originalmente a 16 pixeles, con esto "formateamos" el valor de rem a 10 px, es decir, el 62.5% de 16 es 10. */
+}
+body {
+    font-size: 16px; /* 1rem = 10px */
+}
 h1 {
     text-align: center;
-    color: red;
+    font-size: 3.8rem;
+}
+span {
+    font-size: 2rem;
 }
 
