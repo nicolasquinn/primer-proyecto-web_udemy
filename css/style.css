@@ -26,6 +26,8 @@ body {
 
 .nav-principal {
     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-principal a {
