@@ -1,14 +1,26 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #212121;
+    --gris: #757575;
+    --primario: #ffc107;
+    --secundario: #0097A7;
+}
+
 html {
     font-size: 62.5%; /* 1 rem equivale originalmente a 16 pixeles, con esto "formateamos" el valor de rem a 10 px, es decir, el 62.5% de 16 es 10. */
 }
+
 body {
     font-size: 16px; /* 1rem = 10px */
 }
+
 .titulo {
     text-align: center;
     font-size: 3.8rem;
-}
-.titulo span {
-    font-size: 2rem;
+    color: var(--primario);
 }
 
+.titulo span {
+    font-size: 2rem;
+    color: var(--gris);
+}
