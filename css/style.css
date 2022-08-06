@@ -25,11 +25,12 @@ body {
 }
 
 .nav-principal {
-
+    padding: 1rem;
 }
 
 .nav-principal a {
-    background-color: var(--primario);
+    color:var(--blanco);
+    text-decoration: none;
 }
 
 .titulo {
