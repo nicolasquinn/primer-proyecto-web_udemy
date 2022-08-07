@@ -15,6 +15,13 @@ body {
     font-family: 'Krub', sans-serif;
 }
 
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 .nav-bg {
     background-color: var(--secundario);
 }
