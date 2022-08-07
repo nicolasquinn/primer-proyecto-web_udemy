@@ -58,3 +58,9 @@ body {
         justify-content: space-between;
     }
 }
+
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
