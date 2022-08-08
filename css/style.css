@@ -6,6 +6,7 @@
     --secundario: #0097A7;
 }
 
+/* Globales */
 html {
     font-size: 62.5%; /* 1 rem equivale originalmente a 16 pixeles, con esto "formateamos" el valor de rem a 10 px, es decir, el 62.5% de 16 es 10. */
 }
@@ -15,13 +16,40 @@ body {
     font-family: 'Krub', sans-serif;
 }
 
-html {
+html { /* Hack para BoxModel*/
     box-sizing: border-box;
   }
   *, *:before, *:after {
     box-sizing: inherit;
+} 
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
+.boton {
+    background-color: var(--secundario);
+    text-decoration: none;
+    color: var(--blanco);
+    margin-top: 3rem;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 90%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .boton {
+        width: auto;
+    }
+}
+
+
+/* Tipografía */
 h1 {
     font-size: 3.8;
 }
@@ -38,17 +66,16 @@ h1,h2,h3 {
     text-align: center;
 }
 
+/* Títulos */
+
 .titulo span {
     font-size: 2rem;
 }
 
+/* Navegación principal */
+
 .nav-bg {
     background-color: var(--secundario);
-}
-
-.contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
 }
 
 .nav-principal {
@@ -77,6 +104,8 @@ h1,h2,h3 {
     }
 }
 
+/* Hero */
+
 .hero {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
@@ -101,27 +130,7 @@ h1,h2,h3 {
     color: var(--blanco);
 }
 
-.ubicacion {
+.contenido-hero .ubicacion {
     display: flex;
     align-items: flex-end;
-}
-
-.boton {
-    background-color: var(--secundario);
-    text-decoration: none;
-    color: var(--blanco);
-    margin-top: 3rem;
-    padding: 1rem 3rem;
-    border-radius: .5rem;
-    font-size: 2rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    width: 90%;
-    text-align: center;
-}
-
-@media (min-width: 768px) {
-    .boton {
-        width: auto;
-    }
 }
