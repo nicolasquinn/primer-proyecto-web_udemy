@@ -105,3 +105,23 @@ h1,h2,h3 {
     display: flex;
     align-items: flex-end;
 }
+
+.boton {
+    background-color: var(--secundario);
+    text-decoration: none;
+    color: var(--blanco);
+    margin-top: 3rem;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 90%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .boton {
+        width: auto;
+    }
+}
