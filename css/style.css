@@ -50,6 +50,12 @@ html { /* Hack para BoxModel*/
     }
 }
 
+.sombra {
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
+    border-radius: 1rem;
+    background-color: var(--blanco);
+    padding: 2rem;
+}
 
 /* Tipografía */
 h1 {
@@ -114,6 +120,7 @@ h1,h2,h3 {
     background-size: cover;
     height: 450px;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-hero {
