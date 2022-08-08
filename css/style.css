@@ -2,6 +2,7 @@
     --blanco: #ffffff;
     --negro: #212121;
     --gris: #757575;
+    --grisClaro: #aaa9a9;
     --primario: #ffc107;
     --secundario: #0097A7;
 }
@@ -14,6 +15,7 @@ html {
 body {
     font-size: 16px; /* 1rem = 10px */
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
 
 html { /* Hack para BoxModel*/
