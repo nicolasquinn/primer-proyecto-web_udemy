@@ -70,4 +70,13 @@ html {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 450px;
+    position: relative;
+}
+
+.contenido-hero {
+    position: absolute;
+    background-color: rgb(0 0 0 / 70%);
+    height: 100%;
+    width: 100%;
 }
