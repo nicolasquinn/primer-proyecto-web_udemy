@@ -42,12 +42,17 @@ html { /* Hack para BoxModel*/
     font-weight: bold;
     width: 90%;
     text-align: center;
+    border: none;
 }
 
 @media (min-width: 768px) {
     .boton {
         width: auto;
     }
+}
+
+.boton:hover {
+    cursor: pointer;   
 }
 
 .sombra {
@@ -78,6 +83,26 @@ h1,h2,h3 {
 
 .titulo span {
     font-size: 2rem;
+}
+
+/* Utilidades */
+
+.w-sm-100 {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .w-sm-100 {
+        width: auto;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.alinear-derecha {
+    justify-content: flex-end
 }
 
 /* Navegación principal */
@@ -145,6 +170,7 @@ h1,h2,h3 {
 }
 
 /* Servicios */
+
 @media (min-width: 768px) {
     .servicios {
         display: grid;
@@ -179,6 +205,9 @@ h1,h2,h3 {
     line-height: 2rem;
 }
 
+
+/* Contacto */
+
 .contacto {
     width: min(60rem , 100%); 
     margin: 0 auto;
@@ -198,4 +227,26 @@ h1,h2,h3 {
 
 .contacto fieldset {
     border: none;
+}
+
+.contenedor-campos {
+
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    display: block;
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem; 
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
 }

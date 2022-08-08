@@ -106,32 +106,39 @@
         <section>
             <h2>Contacto</h2>
             <form class="contacto">
+
                 <fieldset>
                     <legend>Contáctame llenando todos los campos</legend>
-                        <div>
+
+                    <div class="contenedor-campos">
+
+                        <div class="campo">
                             <label>Nombre</label>
-                            <input type="text" placeholder="Tu nombre">
+                            <input class="input-text" type="text" placeholder="Tu nombre">
                         </div>
 
-                        <div>
+                        <div class="campo">
                             <label>Teléfono</label>
-                            <input type="tel" placeholder="Tu teléfono">
+                            <input class="input-text" type="tel" placeholder="Tu teléfono">
                         </div>
 
-                        <div>
+                        <div class="campo">
                             <label>Email</label>
-                            <input type="email" placeholder="Tu email">
+                            <input class="input-text" type="email" placeholder="Tu email">
                         </div>
 
-                        <div>
+                        <div class="campo">
                             <label>Mensaje</label>
-                            <textarea></textarea>
+                            <textarea class="input-text"></textarea>
                         </div>
 
-                        <div>
-                            <input type="submit" value="Enviar">
+                        <div class="alinear-derecha flex">
+                            <input class="boton w-sm-100" type="submit" value="Enviar">
                         </div>
+
+                    </div> <!--.contenedor-campos -->
                 </fieldset>
+                
             </form>
         </section>
 
