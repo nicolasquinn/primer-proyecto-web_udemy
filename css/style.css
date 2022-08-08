@@ -178,3 +178,24 @@ h1,h2,h3 {
     text-align: center;
     line-height: 2rem;
 }
+
+.contacto {
+    width: min(60rem , 100%); 
+    margin: 0 auto;
+    background-color: var(--gris);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.contacto legend {
+    color: var(--primario);
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contacto fieldset {
+    border: none;
+}
